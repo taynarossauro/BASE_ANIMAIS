@@ -1,10 +1,6 @@
 # BASE_ANIMAIS
 
 # Atividade: Base de Dados Animais
-
-## Objetivo
-Duplicar a base de dados utilizada na atividade individual e realizar uma série de operações SQL.
-
 ## Passo 1: Duplicar a Base de Dados
 
 ```sql
