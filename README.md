@@ -84,9 +84,3 @@ INSERT INTO tabela_exemplo SELECT * FROM animais.tabela_exemplo;  -- Repita para
    ```sql
    DROP TABLE IF EXISTS especies;
    ```
-
-## Observações
-
-- **Backup:** Sempre é recomendável fazer um backup da base de dados original antes de realizar grandes alterações ou remoções.
-- **Comandos Personalizados:** Caso você tenha tabelas ou colunas com nomes diferentes, substitua os exemplos pelos nomes corretos.
-- **Testes:** Teste cada comando individualmente para verificar se está funcionando conforme o esperado.
