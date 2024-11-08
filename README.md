@@ -8,8 +8,8 @@ CREATE DATABASE animais_duplicados;
 USE animais_duplicados;
 
 -- Copiar todas as tabelas da base original
-CREATE TABLE tabela_exemplo LIKE animais.tabela_exemplo;  -- Repita para cada tabela
-INSERT INTO tabela_exemplo SELECT * FROM animais.tabela_exemplo;  -- Repita para cada tabela
+CREATE TABLE tabela_exemplo LIKE animais.tabela_exemplo; 
+INSERT INTO tabela_exemplo SELECT * FROM animais.tabela_exemplo;
 ```
 
 ## Passo 2: Alterações na Base de Dados
